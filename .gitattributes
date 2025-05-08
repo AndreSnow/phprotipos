@@ -1,0 +1,22 @@
+* text=auto eol=lf
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+*.lock
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+
+/vendor
+
+/node_modules
+
+*.log
+*.env
+.DS_Store
+
+docker-compose.override.yml
